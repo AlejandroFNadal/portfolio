@@ -30,11 +30,11 @@ export default function Home() {
    			<div className="col-twelve">
 
 	   			<h5>Hello, World.</h5>
-	   			<h1>Im Juan Dela Cruz.</h1>
+	   			<h1>I'm Alejandro Nadal.</h1>
 
 	   			<p className="intro-position">
-	   				<span>Front-end Developer</span>
-	   				<span>UI/UX Designer</span> 
+	   				<span>Software Engineer</span>
+	   				<span>Data Scientist</span> 
 	   			</p>
 
 	   			<a className="button stroke smoothscroll" href="#about" title="">More About Me</a>
@@ -45,113 +45,230 @@ export default function Home() {
    	</div> 
 
    	<ul className="intro-social">        
-         <li><a href="#"><i className="fa fa-facebook"></i></a></li>
-         <li><a href="#"><i className="fa fa-behance"></i></a></li>
-         <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-         <li><a href="#"><i className="fa fa-dribbble"></i></a></li>
-         <li><a href="#"><i className="fa fa-instagram"></i></a></li>
+         <li><a href="https://www.linkedin.com/in/alejandro-nadal/"><i className="fa fa-linkedin"></i></a></li>
+         <li><a href="https://github.com/AlejandroFNadal"><i className="fa fa-github"></i></a></li>
       </ul>    	
 
    </section> 
 
 
    <section id="about">  
+	<div className="row justify-content-center">
+		<div className="row justify-content-center mx-auto section-intro">
+			<div className="col-12 justify-content-center ">
 
-   	<div className="row  mx-auto section-intro">
-   		<div className="col-twelve ">
+				<h5>About</h5>
+				<h1>Let me introduce myself.</h1>
 
-   			<h5>About</h5>
-   			<h1>Let me introduce myself.</h1>
+				<div className=" row justify-content-center intro-info">
+					<div className="col-sm-2 profile_pic">
+						<img src="im2.jpg"  alt="Profile Picture"/>
+					</div>
+					<div className="col-sm-5">
+						<p className="lead ">Software Engineer, focused on Data Engineering and Data Science. Fullbright Grantee, IAESTE intern at Switzerland. I am an Open Source enthusiast, voracious reader and a dedicated professional.</p>
+					</div>
+				</div>   			
+			</div>   		
+		</div> 
+		<div className="about-content">
+			<div className="row">
+				<div className="col-xs-12 p-3 tab-full text-left">
 
-   			<div className=" row intro-info">
-          <div className="col-sm-3 profile_pic">
-            <img src="im2.jpg"  alt="Profile Picture"/>
-          </div>
-   				<div className="col-sm-9">
-            <p className="lead ">Software Engineer, focused on Data Engineering and Data Science. Fullbright Grantee, IAESTE intern at Switzerland. I am an Open Source enthusiast, voracious reader,  </p>
-          </div>
+					<h3>Skills</h3>
+						<ul className="text-left skill-list">
+						<li>
+							<strong>Bussiness understanding</strong>: I have a solid grasp on the business side of the software development process, and I can understand the business requirements of any project. I also possess knowledge about finance and accounting.
+						</li>
+						<li>
+							<strong>ETL - Data Pipelines</strong>: I can extract and transform data using Pandas, SQL, and Bash,  then load it to S3 buckets, SQL databases, MongoDB and DynamoDB. I have experience in maintaining Linux instances, daemonizing processes and scheduling jobs.  
+						</li>
+						<li>
+							<strong>Machine Learning models</strong>: I can choose the right models for any particular situation, and then build and train models using Python, Keras, Tensorflow, Scikit-learn, and Pandas. 
+						</li>
+						<li>
+							<strong>Model deployment and interfacing</strong>: I can deploy trained models into Linux Servers and Serverless functions such as AWS Lambda, manage them and create REST APIs to interact with them in both Node.js and Django. To disponibilize them, I use AWS API Gateway and both traditional Apache web servers.
+						</li>
+						<li>
+							<strong>Maths and Statistics</strong>: I know how to perform statistical analyisis over data, detect outliers, correlations 
+						</li>
 
-   				
-   			</div>   			
+						</ul> 
 
-   		</div>   		
-   	</div> 
-
-   	<div className="row about-content">
-
-   		<div className="col-six tab-full">
-
-   			<h3>Profile</h3>
-   			<p>Lorem ipsum Qui veniam ut consequat ex ullamco nulla in non ut esse in magna sint minim officia consectetur nisi commodo ea magna pariatur nisi cillum.</p>
-
-   			<ul className="info-list">
-   				<li>
-   					<strong>Fullname:</strong>
-   					<span>Juan Dela Cruz</span>
-   				</li>
-   				<li>
-   					<strong>Birth Date:</strong>
-   					<span>September 28, 1987</span>
-   				</li>
-   				<li>
-   					<strong>Job:</strong>
-   					<span>Freelancer, Frontend Developer</span>
-   				</li>
-   				<li>
-   					<strong>Website:</strong>
-   					<span>www.kardswebsite.com</span>
-   				</li>
-   				<li>
-   					<strong>Email:</strong>
-   					<span>me@kardswebsite.com</span>
-   				</li>
-
-   			</ul> 
-
-   		</div>
-
-   		<div className="col-six tab-full">
-
-   			<h3>Skills</h3>
-   			<p>Lorem ipsum Qui veniam ut consequat ex ullamco nulla in non ut esse in magna sint minim officia consectetur nisi commodo ea magna pariatur nisi cillum.</p>
-
-				<ul className="skill-bars">
-				   <li>
-				   	<div className="progress percent90"><span>90%</span></div>
-				   	<strong>HTML5</strong>
-				   </li>
-				   <li>
-				   	<div className="progress percent85"><span>85%</span></div>
-				   	<strong>CSS3</strong>
-				   </li>
-				   <li>
-				   	<div className="progress percent70"><span>70%</span></div>
-				   	<strong>JQuery</strong>
-				   </li>
-				   <li>
-				   	<div className="progress percent95"><span>95%</span></div>
-				   	<strong>PHP</strong>
-				   </li>
-				   <li>
-
-				   	<div className="progress percent75"><span>75%</span></div>
-				   	<strong>Wordpress</strong>
-				   </li>
-      
-				</ul> 
-
-   		</div>
-
-   	</div>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+   	
 
    	<div className="row button-section">
-   		<div className="col-twelve">
+   		<div className="col-12">
    			<a href="#contact" title="Hire Me" className="button stroke smoothscroll">Hire Me</a>
    			<a href="#" title="Download CV" className="button button-primary">Download CV</a>
    		</div>   		
    	</div>
 
    </section>
+   <section id="resume" className="grey-section row justify-content-center">
+
+		<div className="row section-intro justify-content-center">
+   		<div className="col-6">
+
+   			<h5>Resume</h5>
+   			<h1>More of my credentials.</h1>
+
+   			<p className="lead">Some of the things I have done lately both in professional and academical settings.</p>
+
+   		</div>   		
+   	</div> 
+   	<div className="row resume-timeline">
+
+   		<div className="col-twelve resume-header">
+
+   			<h2>Work Experience</h2>
+
+   		</div>
+
+   		<div className="col-twelve">
+
+   			<div className="timeline-wrap">
+
+   				<div className="timeline-block">
+
+	   				<div className="timeline-ico">
+	   					<i className="fa fa-briefcase"></i>
+	   				</div>
+
+	   				<div className="timeline-header">
+	   					<h3>Software Engineer</h3>
+	   					<p>July 2021 - Present</p>
+	   				</div>
+
+	   				<div className="timeline-content">
+	   					<h4>Synics AG - Zurich, Switzerland</h4>
+	   					<li>Developed desktop and web applications used by train companies all over Europe to handle security behaviour and analysis of train activity data using Python, NodeJs and C++</li>
+						<li>Developed software for event triggered real time communication for trains with reaction reestrictions of 20 miliseconds, using C, to run in Linux devices</li>
+						<li>Updated and maintained of company infrastructure applications: Openproject, NextCloud, Webpage, Matrix, and SVN, and their respective Linux virtual machines hosting them.</li>   
+	   				</div>
+
+	   			</div> 
+
+	   			<div className="timeline-block">
+
+	   				<div className="timeline-ico">
+	   					<i className="fa fa-graduation-cap"></i>
+	   				</div>
+
+	   				<div className="timeline-header">
+	   					<h3>Machine Learning Intern Researcher</h3>
+	   					<p>March 2021 - December 2021</p>
+	   				</div>
+
+	   				<div className="timeline-content">
+	   					<h4>Universidad Tecnologica Nacional - Resistencia, Argentina (Remote) </h4>
+	   					<li> Worked on the development of a metric through polynomic regression to choose an imputation method to apply amputated data using KNN and KMeans methods.</li>
+	   				</div>
+
+	   			</div> 
+
+	   			<div className="timeline-block">
+
+	   				<div className="timeline-ico">
+	   					<i className="fa fa-graduation-cap"></i>
+	   				</div>
+
+	   				<div className="timeline-header">
+	   					<h3>FullStack Developer</h3>
+	   					<p>January 2021 - June 2021</p>
+	   				</div>
+
+	   				<div className="timeline-content">
+	   					<h4>Circulo Digital - Resistencia, Argentina (Remote)</h4>
+	   					<li>Developed a service capable of processing newsletter registration data, using NodeJs, Passport and MongoDB, running on Linux servers. </li>
+						<li>Developed a web application for managing newsletters, using NextJs (React) </li>
+	   				</div>
+
+	   			</div>
+
+   			</div> 
+
+   		</div>
+   		
+   	</div> 
+   	
+   	<div className="row resume-timeline">
+
+   		<div className="col-twelve resume-header">
+
+   			<h2>Education</h2>
+
+   		</div> 
+
+   		<div className="col-twelve">
+
+   			<div className="timeline-wrap">
+
+   				<div className="timeline-block">
+
+	   				<div className="timeline-ico">
+	   					<i className="fa fa-briefcase"></i>
+	   				</div>
+
+	   				<div className="timeline-header">
+	   					<h3>Master Degree</h3>
+	   					<p>July 2015 - Present</p>
+	   				</div>
+
+	   				<div className="timeline-content">
+	   					<h4>University of Life</h4>
+	   					<p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi.</p>
+	   				</div>
+
+	   			</div>
+
+	   			<div className="timeline-block">
+
+	   				<div className="timeline-ico">
+	   					<i className="fa fa-briefcase"></i>
+	   				</div>
+
+	   				<div className="timeline-header">
+	   					<h3>Bachelor Degree</h3>
+	   					<p>July 2014 - June 2015</p>
+	   				</div>
+
+	   				<div className="timeline-content">
+	   					<h4>State Design University</h4>
+	   					<p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi incididunt.</p>
+	   				</div>
+
+	   			</div>
+
+	   			<div className="timeline-block">
+
+	   				<div className="timeline-ico">
+	   					<i className="fa fa-briefcase"></i>
+	   				</div>
+
+	   				<div className="timeline-header">
+	   					<h3>Bachelor Degree</h3>
+	   					<p>May 2013 - June 2014</p>
+	   				</div>
+
+	   				<div className="timeline-content">
+	   					<h4>Design College</h4>
+	   					<p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi incididunt.</p>
+	   				</div>
+
+	   			</div>
+
+   			</div> 
+
+   		</div>
+   		
+   	</div> 		
+	</section>
+
       <footer className={styles.footer}>
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
