@@ -1399,10 +1399,9 @@ header .logo a {
 
 .intro-social {
 	display: block;
-	position: absolute;
+	position: relative;
 	width: 100%;
 	left: 0;
-	bottom: 7.2rem;
 	font-size: 3.3rem;
 	margin: 0;
 	padding: 0;
@@ -1413,7 +1412,7 @@ header .logo a {
 	padding: 0;
 }
 .intro-social li a, .intro-social li a:visited {
-	color: #FFFFFF;
+	color: #000000;
 }
 .intro-social li a:hover, .intro-social li a:focus {
 	color: #cc005f;
