@@ -55,9 +55,12 @@
         navigationText: false
     });
 	/* If owl-wrapper is hovered, make inmediate children have background color
-	black but not the children's children*/
+	black but not the children's children only if the size of the screen is greater than 780*/
+
 	$(".owl-item").on('mouseover', function(){
-		$(this).css('background-color', 'black');
+		if($(window).width() > 780){
+			$(this).css('background-color', 'rgba(0,0,0,0.7)');
+		}
 	})
 	$(".owl-item").on('mouseout', function(){
 		$(this).css('background-color', 'transparent');

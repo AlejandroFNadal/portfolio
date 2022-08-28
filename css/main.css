@@ -2187,7 +2187,11 @@ header .logo a {
 	color: #FFFFFF;
 }
 .services-list .desc {
-	color: rgba(255, 255, 255, 0.6);
+	color: rgba(255, 255, 255, 1);
+}
+#services .link-to-article {
+	color: #FF0077;
+	text-decoration: underline;
 }
 
 

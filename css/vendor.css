@@ -57,14 +57,14 @@
 /*all owl-items must have the same height*/
 .owl-item{
 	padding: 1em;
-	height: 20em;
+	height: 25em;
 }
 /* in phones, the owl-item must be taller and also have 
 a slight different opacity and borders closer to white
 so that it is easier to distinguish that you can touch them*/
 @media (max-width: 767px) {
 	.owl-item{
-		height: 30em;
+		height: 32em;
 		opacity: 0.8;
 		border: 1px solid #fff;
 		padding-top: 2em;
