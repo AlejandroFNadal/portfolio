@@ -45,7 +45,7 @@
 	/* Owl Carousel
 	------------------------------------------------------ */ 
 	$("#owl-slider").owlCarousel({
-        navigation: false,
+        navigation: true,
         pagination: true,
         itemsCustom : [
 	        [0, 1],
@@ -54,8 +54,14 @@
 	     ],
         navigationText: false
     });
-
-
+	/* If owl-wrapper is hovered, make inmediate children have background color
+	black but not the children's children*/
+	$(".owl-item").on('mouseover', function(){
+		$(this).css('background-color', 'black');
+	})
+	$(".owl-item").on('mouseout', function(){
+		$(this).css('background-color', 'transparent');
+	})
 	/*----------------------------------------------------- */
 	/* Alert Boxes
   	------------------------------------------------------- */

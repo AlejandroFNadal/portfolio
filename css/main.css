@@ -1503,8 +1503,7 @@ header .logo a {
 	margin-left: -30px;
 }
 .intro-info img {
-	height: 27rem;
-	width: 13.5rem;
+	height: auto;
 	margin: 0.5rem 4rem 0 0rem;
 	border-radius: 3px;
 	float: left;
@@ -1602,8 +1601,10 @@ header .logo a {
 		margin-top: 3rem;
 	}
 	.intro-info img {
-		height: 28rem;
-		width: 14rem;
+		
+		max-width: 90%;
+		width:80%;
+		height:auto;
 		float: none;
 		display: inline-block;
 		margin:0;
@@ -1613,7 +1614,43 @@ header .logo a {
 		text-align: center;
 	}
 }
+/**
+ * ===================================================================
+ publication section
+ */
 
+ #publications {
+	background: #FFFFFF;
+	padding-top: 12rem;
+	padding-bottom: 12rem;
+ }
+
+ #publications .publication-header{
+	 text-align: center;
+ }
+.publication-header h1::after {
+	content: "";
+	display: block;
+	height: 3px;
+	width: 15px;
+	background: rgba(0, 0, 0, 0.2);
+	position: relative;
+	left: 50%;
+	bottom: 0;
+	margin-top: 10px;
+	
+}
+
+ #publications li{
+	 margin-bottom:1.5rem;
+ }
+ #publications li a {
+	 color: #cc005f;
+	 font-weight: bold;
+ }
+ #publications li a:hover {
+	 color: #3d0921;
+ }
 /** 
  * ===================================================================
  * 12. resume - (_layout.scss)
@@ -2152,6 +2189,7 @@ header .logo a {
 .services-list .desc {
 	color: rgba(255, 255, 255, 0.6);
 }
+
 
 /* pagination */
 .owl-pagination {
