@@ -1,6 +1,6 @@
 #!/bin/bash
 
-rm ftp_script.sh
+cd project
 touch ftp_script.sh
 echo "ftp -inv \$FTP_SERVER <<EOF" >> ftp_script.sh
 echo "user \$FTP_USER \$FTP_PASS" >> ftp_script.sh
