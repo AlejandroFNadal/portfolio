@@ -8,8 +8,10 @@ This website is hosted in a cheap website hosting provider. I cannot SSH into th
 To do this, I have set up my own script that generates another script listing all the contents of the repository and then runs this script. The script generator code can be found here: https://github.com/AlejandroFNadal/portfolio/blob/main/deploy_commands/deploy.sh . The following image shows a very simple diagram of the CD pipeline. 
 
 <p align="center">
-  <img src=https://user-images.githubusercontent.com/32724827/194751715-baf3bd29-314b-45c5-9ed3-be0fc4ef60ac.png></img>
+  <img alt="CD pipeline diagram" src="https://user-images.githubusercontent.com/32724827/194753004-888e0bb1-e0e5-4823-b1ad-daa6a28f1d85.png"</img>
 </p>
+
+Pipeline status: [![CircleCI](https://circleci.com/gh/circleci/circleci-docs.svg?style=shield)](https://circleci.com/gh/AlejandroFNadal/portfolio)
 
 
 ### Possible improvements
