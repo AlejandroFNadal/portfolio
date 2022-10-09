@@ -7,7 +7,9 @@ This website is hosted in a cheap website hosting provider. I cannot SSH into th
 
 To do this, I have set up my own script that generates another script listing all the contents of the repository and then runs this script. The script generator code can be found here: https://github.com/AlejandroFNadal/portfolio/blob/main/deploy_commands/deploy.sh . The following image shows a very simple diagram of the CD pipeline. 
 
-![image](https://user-images.githubusercontent.com/32724827/194751605-d58f4ec7-552a-4723-9612-dc58b4b3acd8.png)
+<p align="center">
+  <img src=https://user-images.githubusercontent.com/32724827/194751715-baf3bd29-314b-45c5-9ed3-be0fc4ef60ac.png></img>
+</p>
 
 
 ### Possible improvements
