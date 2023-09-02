@@ -86,7 +86,7 @@
 					alt="Profile Picture"
 				>
 
-   				<p class="lead">Software Engineer, focused on Data Engineering and Data Science. Fullbright Grantee, IAESTE intern at Switzerland. I am an Open Source enthusiast, voracious reader and a dedicated professional.</p>
+   				<p class="lead">Software Engineer, focused on Data Engineering and Data Science. Fullbright Grantee. Currently working in Switzerland. I am an Open Source enthusiast, voracious reader and a dedicated professional.</p>
    			</div>
 			<h4> Follow me on: </h4>
 			<ul class="intro-social">        
@@ -111,7 +111,7 @@
 						<strong>Bussiness understanding</strong>: I have a solid grasp on the business side of the software development process, and I can understand the business requirements of any project. I also possess knowledge about finance and accounting.
 					</li>
 					<li>
-						<strong>ETL - Data Pipelines</strong>: I can extract and transform data using Pandas, SQL, and Bash,  then load it to S3 buckets, SQL databases, MongoDB and DynamoDB. I have experience in maintaining Linux instances, daemonizing processes and scheduling jobs.  
+						<strong>ETL - Data Pipelines</strong>: I can extract and transform data using Pandas, SQL, and Bash, then load it to S3 buckets, SQL databases, MongoDB and DynamoDB. I have experience in maintaining Linux instances, daemonizing processes and scheduling jobs.  
 					</li>
 					<li>
 						<strong>Machine Learning models</strong>: I can choose the right models for any particular situation, and then build and train models using Python, Keras, Tensorflow, Scikit-learn, and Pandas. 
@@ -120,7 +120,7 @@
 						<strong>Model deployment and interfacing</strong>: I have deployed trained models into Linux Servers and Serverless functions such as AWS Lambda, manage them and create REST APIs to interact with them in both Node.js and Django. To disponibilize them, I use AWS API Gateway and both traditional Apache web servers.
 					</li>
 					<li>
-						<strong>Maths and Statistics</strong>: I know how to perform statistical analyisis over data, detect outliers, correlations and create traditional matematical models
+						<strong>Maths and Statistics</strong>: I know how to perform statistical analyisis over data, detect outliers, correlations and create traditional matematical models.
 					</li>
 					<li>
 						<strong>Backend</strong>: I design, create and maintain databases, APIs and microservices in traditional environments such as Linux servers as well as using AWS for the same purpose.
@@ -129,7 +129,7 @@
 						<strong>Frontend</strong> Given a design, I can build a responsive website using React/NextJs and deploy it through Nginx or build it statically to be deployed in S3 or Apache.
 					</li>
 					<li>
-						<strong>CICD</strong> I have experience automating infraestructure and software deployment to AWS through the Serverless Framework, Gitlab CI/CD and CircleCI.
+						<strong>CICD</strong> I have experience automating infraestructure and software deployment to AWS through the Serverless Framework, Gitlab CI/CD and CircleCI. In fact, this site is deployed automatically over CircleCI.
 					</li>
 				</ul> 		
 
@@ -184,8 +184,11 @@
 						   <li>Software requirements elicitation through interviews and prototyping</li>
 						   <li>Designed and developed desktop and web applications used by train companies all over Europe to handle safety behaviour and analysis of train activity data using Python, NodeJs and C++, using wx, and qt for desktop applications</li>
 						   <li>Developed software for event triggered real time communication for trains with reaction reestrictions of 20 miliseconds, using C and Python, to run in Linux devices</li>
-						   <li>Updated and maintained of company infrastructure applications: Openproject, NextCloud, Webpage, Matrix, and SVN, and their respective Linux virtual machines hosting them.</li>
+						   <li>Updated and maintained company infrastructure applications: MySQL, Budibase, Openproject, NextCloud, Webpages, Matrix, and SVN, and their respective Linux virtual machine hosts, as well as maintaining their automated backups.</li>
 						   <li>Designed and developed testing software that automates testing for hardware equipment, improving testing time from 30 minutes to 10, using Python, communicating with serial, CANOpen, TRDP and requiring multithreading for simultaneous handling of many hardware devices.  </li>
+						   <li>Developed React based frontend for a money safe system that controls minor explosives to destroy the safe's contents in case of intrusion.</li>
+						   <li>Developed a microservice based full stack system to receive, display in a dashboard and send real time data of train safety equipment, using NodeJs, React and Python.</li>
+						   <li>Developed software that receives MQTT messages over LAN, converts them to CAN, managing seat reservations in trains, using Python, with heavy multithreading usage, communicating with 128 displays at a time.</li>
 	   				</div>
 
 	   			</div> <!-- /timeline-block -->
@@ -308,7 +311,36 @@
 
    		<div id="owl-slider" class="owl-carousel services-list">
 			<!-- link that opens on another window-->
-			
+				<div class="service">	
+
+					<span class="icon"><i class="icon-window"></i></span>                          
+
+	            	<div class="service-content">	
+
+	            		<h3>Max Non-Divisble Subset -- What is there under the hood?</h3>  
+
+		            	<p class="desc">Detailed explanation on how to approach the Max Non-Divisible Subset coding challenge, using Euler's Division Lemma to achieve a O(n) solution.</p>
+					 	<a class="link-to-article" href="https://medium.com/stackademic/max-non-divisible-subset-what-is-there-under-the-hood-dd4c5e42517e" target="_blank">
+							Read the article
+						</a>
+	            	</div>	                          
+				</div> <!-- /service -->
+
+			<div class="service">	
+
+					<span class="icon"><i class="icon-window"></i></span>                          
+
+	            	<div class="service-content">	
+
+	            		<h3>Making Windows bearable for a Linux User</h3>  
+
+		            	<p class="desc">If you are being forced to use Windows professionally, here there are some things you can do to convert it in a more usable environment.</p>
+					 	<a class="link-to-article" href="https://medium.com/@alejandrofnadal/making-windows-bearable-for-a-linux-user-606eb2cbdb80" target="_blank">
+							Read the article
+						</a>
+	            	</div>	                          
+				</div> <!-- /service -->
+
 				<div class="service">	
 					<a href="https://alejandrofnadal.medium.com/mapping-renewable-power-plants-in-argentina-dynamic-svg-marker-creation-in-folium-e4eecadee854" target="_blank" ></a>
 					<span class="icon"><i class="icon-earth"></i></span>            
@@ -347,21 +379,34 @@
 			
 			   <div class="service">
 
-			   	<span class="icon"><i class="icon-paint-brush"></i></span>		            
+					<span class="icon"><i class="icon-paint-brush"></i></span>		            
 
-	            <div class="service-content">
+	            	<div class="service-content">
 
-	            	<h3>Una playa en fractales</h3>
+	            		<h3>Una playa en fractales</h3>
 
-		            <p class="desc">Creating a beach shore using the Cantor set Fractal with Python and Matplotlib. (Spanish).
-	        		</p> 
-					<a class="link-to-article" href="https://alejandrofnadal.medium.com/una-playa-en-fractales-matplotlib-2df5d05eb223" target="_blank">
-						Read the article
-					</a>
-
-	            </div> 	            	               
-
+		            	<p class="desc">Creating a beach shore using the Cantor set Fractal with Python and Matplotlib. (Spanish).</p> 
+						<a class="link-to-article" href="https://alejandrofnadal.medium.com/una-playa-en-fractales-matplotlib-2df5d05eb223" target="_blank">
+							Read the article
+						</a>
+	            	</div> 	            	               
 			   </div> <!-- /service -->
+
+				<div class="service">	
+
+					<span class="icon"><i class="icon-window"></i></span>                          
+
+	            	<div class="service-content">	
+
+	            		<h3>Breaking RSA encryption (Spanish)</h3>  
+
+		            	<p class="desc">A writeup on how RSA encryption can be broken, when proper implementations of the algorithms are not used.</p>
+					 	<a class="link-to-article" href="https://alejandrofnadal.medium.com/descifrando-claves-de-cifrado-asimétrico-implementando-y-vulnerando-rsa-98b7a5257d8" target="_blank">
+							Read the article
+						</a>
+	            	</div>	                          
+				</div> <!-- /service -->
+				
 	      </div> <!-- /services-list -->
    		
    	</div> <!-- /services-content -->
